@@ -1,5 +1,6 @@
 var countArray = [];
-s
+
+
 for (var i=1; i<=100; i++)
   {
     if (i%15 == 0)
@@ -20,3 +21,4 @@ console.log(countArray);
 $('.button').on('click', function(){
   $('.main ul').append(countArray);
 });
+
